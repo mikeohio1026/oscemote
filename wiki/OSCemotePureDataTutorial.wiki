@@ -1,0 +1,25 @@
+#summary One-sentence summary of this page.
+#labels Featured
+
+= Introduction =
+
+PureData is a free open source cross platform (Mac, Windows & Linux) application similar to Max/MSP.  PureData (aka Pd) is a very open ended visual programming environment.  You can use it to create synthesized music, visualizations, do audio processing or pretty much anything else.  You can download it for free here: http://puredata.info/downloads
+
+= Details =
+
+Below are two examples of using PureData with OSCemote.  The first creates a virtual theremin using OSCemote's multi-touch control surface.  The second converts any OSCemote message into a MIDI message for use in any MIDI compatible software.
+
+= Example 1: Multi-touch Virtual Theremin =
+
+ * Insert tutorial here.
+
+= Example 2: OSC to MIDI Bridge =
+
+ * First download and open this PureData file: http://lux.vu/iphone/oscemote/OSCemote%20Demo.pd
+ * Now launch OSCemote on your iPhone or iPod Touch.
+ * Open your computer's network settings control panel to find your WiFi IP address (usually something like 10.0.1.2 or 192.168.0.2)
+ * Go to the Settings tab in OSCemote and enter the IP address of your computer.
+ * Make sure the port # in OSCemote and PureData's "dumpOSC" object match (usually 3333).
+ * Also make sure your computer's firewall will allow UDP traffic on the port you are using.
+ * Now switch to the buttons, sliders or multi-touch view in OSCemote and press something.
+ * You should see the values from the button, slider or touch appear in the PureData window.
