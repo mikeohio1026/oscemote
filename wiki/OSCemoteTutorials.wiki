@@ -1,41 +1,15 @@
-#summary One-sentence summary of this page.
+#summary List of Tutorials for OSCemote
 
 = Introduction =
 
-Add your content here.
+OSCemote has been tested with the following applications.  For each application there is a link to a tutorial.  I can't test every application myself, so if you find one missing, feel free to contribute some notes, hints or anything you think others might find helpful.
 
+<b>NOTE:</b> For applications that support only MIDI, you will need to use a bridge to convert OSCemote's OSC messages to MIDI.  There are tutorials on how to use Max, PureData or OSCulator to map OSC to MIDI.
 
-= Details =
+Items highlighted in _italics_ will probably work, but have not been tested by OCSemote's author.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
-OSCemote has been tested with the following applications.
-
-<b>NOTE:</b> For applications that support only MIDI, you will need to use a bridge to convert OSCemote's OSC messages to MIDI.  Here are tutorials on how to use <a href="http://">Max</a>, <a href="http://">PureData</a> or <a href="http://">OSCulator</a> to map OSC to MIDI.
-
-Items highlighted in <em>italics</em> will probably work, but have not been tested by OCSemote's author.
-
-<table>
-<tr>
-<th>Software</th>
-<th>Platforms</th>
-<th>Protocol</th>
-<th>Tutorial</th>
-<th>Notes</th>
-</tr>
-
-<tr>
-<td><a href="http://puredata.info/">PureData</a></td>
-<td>Mac, <em>Windows</em>, <em>Linux</em></td>
-<td>OSC, MIDI</td>
-<td></td>
-<td></td>
-</tr>
-
+|| Software || Platforms || Protocol || Tutorial || Notes ||
+|| [http://puredata.info/ PureData] || Mac, _Windows_, _Linux_  || OSC, MIDI || || ||
 <tr>
 <td><a href="http://www.cycling74.com/products/max5">Max/MSP</a></td>
 <td><em>Mac</em>, <em>Windows</em></td>
