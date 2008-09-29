@@ -1,4 +1,5 @@
 #summary A list of all OSC messages that OSCemote's built-in panels can send
+#labels Featured
 
 = Introduction =
 
