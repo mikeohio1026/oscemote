@@ -23,8 +23,9 @@ http://oscemote.googlecode.com/files/OSCemote-Simple.png
 
 = OSC to MIDI Bridge =
 
+http://oscemote.googlecode.com/files/OSCemoteToMIDI-Fancy.png
+
  * First download and open [http://oscemote.googlecode.com/files/OSCemoteToMIDI-Fancy.pd  this fancy PureData file]
  * Now follow the same steps as the simple example above.
  * You should now see PureData responding to OSCemote.
  * If you have an external MIDI device plugged in to your machine it will now receive MIDI notes.
-
