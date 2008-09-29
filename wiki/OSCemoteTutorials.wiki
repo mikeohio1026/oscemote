@@ -1,4 +1,5 @@
 #summary List of Tutorials for OSCemote
+#labels Featured
 
 = Introduction =
 
