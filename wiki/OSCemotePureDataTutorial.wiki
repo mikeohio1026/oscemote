@@ -6,19 +6,25 @@ PureData is a free open source cross platform (Mac, Windows & Linux) application
 
 = Details =
 
-Below are two examples of using PureData with OSCemote.  The first creates a virtual theremin using OSCemote's multi-touch control surface.  The second converts any OSCemote message into a MIDI message for use in any MIDI compatible software.
+Below is an example of using PureData to convert OSCemote messages into a MIDI messages for use in any MIDI compatible software.
 
-= Example 1: Multi-touch Virtual Theremin =
+= Simple PureData Example =
 
- * Insert tutorial here.
+http://oscemote.googlecode.com/files/OSCemote-Simple.png
 
-= Example 2: OSC to MIDI Bridge =
-
- * First download and open this PureData file: http://lux.vu/iphone/oscemote/OSCemote%20Demo.pd
+ * First download and open [http://oscemote.googlecode.com/files/OSCemote-Simple.pd  this simple PureData file]
  * Now launch OSCemote on your iPhone or iPod Touch.
  * Open your computer's network settings control panel to find your WiFi IP address (usually something like 10.0.1.2 or 192.168.0.2)
  * Go to the Settings tab in OSCemote and enter the IP address of your computer.
- * Make sure the port # in OSCemote and PureData's "dumpOSC" object match (usually 3333).
+ * Make sure the port number in OSCemote and PureData's "dumpOSC" object match (usually 3333).
  * Also make sure your computer's firewall will allow UDP traffic on the port you are using.
  * Now switch to the buttons, sliders or multi-touch view in OSCemote and press something.
  * You should see the values from the button, slider or touch appear in the PureData window.
+
+= OSC to MIDI Bridge =
+
+ * First download and open [http://oscemote.googlecode.com/files/OSCemoteToMIDI-Fancy.pd  this fancy PureData file]
+ * Now follow the same steps as the simple example above.
+ * You should now see PureData responding to OSCemote.
+ * If you have an external MIDI device plugged in to your machine it will now receive MIDI notes.
+
