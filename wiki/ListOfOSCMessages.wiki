@@ -55,3 +55,44 @@ For example, pressing A, then B, then C sends:
 /segmented/0 B
 /segmented/0 C
 }}}
+
+= Switches =
+
+The switches at the bottom of the sliders panel send on/off events as int values 0 or 1.
+
+{{{
+/switch/{id} {value}
+}}}
+
+For example, turning the first switch on, then off sends:
+
+{{{
+/switch/1 1
+/switch/1 0
+}}}
+
+= Accelerometer =
+
+When you turn the accelerometer on or off, it sends an event with an int value 1 or 0 indicating on or off.  When turned on, it sends a stream of 3-axis acceleration events with float values measured roughly in Gs (1.0 g = 9.81 meters per second per second = Earth's gravity).
+
+{{{
+/accelerometer {enabled}
+/acceleration/xyz {x} {y} {z}
+}}}
+
+For example, turning it on, shaking the phone and then turning it off again sends:
+
+{{{
+/accelerometer 1
+/acceleration/xyz 0.109012 -0.763081 -0.635901
+/acceleration/xyz 0.199855 -0.763081 -0.763081
+/acceleration/xyz 0.436047 -0.872093 -0.872093
+/acceleration/xyz 0.181686 -0.890262 -0.363372
+/acceleration/xyz -0.508721 -0.65407 0.490552
+/acceleration/xyz -0.454215 -0.52689 1.01744
+/acceleration/xyz -0.0363372 -0.327035 0.25436
+/acceleration/xyz 0.890262 -0.327035 -2.16206
+/acceleration/xyz 0.890262 -0.981105 -2.32558
+/acceleration/xyz 0.0363372 -1.28997 -1.14462
+/accelerometer 0
+}}}
