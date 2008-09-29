@@ -1,5 +1,4 @@
 #summary OSCemote and PureData to MIDI Tutorial
-#labels Featured
 
 = Introduction =
 
