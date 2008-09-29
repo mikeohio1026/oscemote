@@ -1,0 +1,57 @@
+#summary A list of all OSC messages that OSCemote's built-in panels can send
+
+= Introduction =
+
+Here is a list of all the OSC messages that OSCemote's built-in panels can send.
+
+= Buttons =
+
+Buttons are labeled by row A-E and column 1-3.  They send on/off events as int values 0 and 1.
+
+{{{
+/button/{row}{col} {value}
+}}}
+
+For example, pressing three buttons in the top row one at a time would send:
+
+{{{
+/button/A1 1
+/button/A1 0
+/button/A2 1
+/button/A2 0
+/button/A3 1
+/button/A3 0
+}}}
+
+= Sliders =
+
+Sliders are numbered 1-6.  They send float values between 0 and 1.
+
+{{{
+/slider/{number} {value}
+}}}
+
+For example, slider number 1 might send:
+
+{{{
+/slider/1 0.0
+/slider/1 0.1
+/slider/1 0.2
+/slider/1 0.3
+}}}
+
+= Segmented Control =
+
+The segmented control at the bottom of the sliders panel sends the label of the selected segment.  The segment has an id number 0 to allow for more in the future.
+
+{{{
+/segmented/{id} {value}
+}}}
+
+For example, pressing A, then B, then C sends:
+
+{{{
+/segmented/0 A
+/segmented/0 B
+/segmented/0 C
+}}}
