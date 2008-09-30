@@ -1,0 +1,8 @@
+#summary How to make custom panels for OSCemote with HTML and Javascript.
+
+= Introduction =
+
+To see some examples and information look here:
+http://lux.vu/iphone/oscemote/webpanels/
+
+= Details =
