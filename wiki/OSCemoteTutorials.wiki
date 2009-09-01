@@ -5,7 +5,7 @@
 
 OSCemote has been tested with the following applications.  For each application there is a link to a tutorial.  I can't test every application myself, so if you find one missing, feel free to contribute some notes, hints or anything you think others might find helpful.
 
-<b>NOTE:</b> For applications that support only MIDI, you will need to use a bridge to convert OSCemote's OSC messages to MIDI.  There are tutorials on how to use Max, PureData or OSCulator to map OSC to MIDI.
+*NOTE:* For applications that support only MIDI, you will need to use a bridge to convert OSCemote's OSC messages to MIDI.  There are tutorials on how to use Max, PureData or OSCulator to map OSC to MIDI.
 
 Items highlighted in _italics_ will probably work, but have not been tested by OCSemote's author.
 
