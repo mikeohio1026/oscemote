@@ -12,6 +12,7 @@ Items highlighted in _italics_ will probably work, but have not been tested by O
 || Software || Platforms || Protocol || Tutorial || Helpful Links ||
 || [http://puredata.info/ PureData] || Mac, _Windows_, _Linux_  || OSC, MIDI || [OSCemotePureDataTutorial] || ||
 || [http://www.cycling74.com/products/max5 Max/MSP] || _Mac_, _Windows_  || OSC, MIDI || || http://www.trackteamaudio.com/forum/phpBB2/viewtopic.php?t=153 ||
+|| [http://supercollider.sourceforge.net/ SuperCollider] || _Mac_, _Windows_, _Linux_  || OSC, MIDI || OSCemoteSuperColliderExample || ||
 || [http://www.native-instruments.com/index.php?id=traktor3&L=1 Traktor] || Mac, _Windows_  || _OSC_, MIDI || || ||
 || [http://www.futureaudioworkshop.com/circle/ Circle] || Mac, _Windows_  || OSC, MIDI || || ||
 || [http://www.ableton.com/live Ableton Live] || _Mac_, _Windows_  || MIDI || || ||
