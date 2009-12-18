@@ -13,7 +13,7 @@ To make your own, just make an HTML page with osc: links in it and type the URL 
 
 Feel free to copy any of the examples on this page http://lux.vu/iphone/oscemote/webpanels/ as a templates to get started. They are normal HTML, CSS and JavaScript with a couple of special exceptions as follows.
 
-  * They will be viewed with iPhone Safari
+  * They will be viewed with an embedded iPhone Safari (WebKit)
   * Pages are at a fixed zoom level of 1.0
   * They support osc: URLs like these:
   ** osc:/simple/message
@@ -28,6 +28,8 @@ The osc: link format is defined as:
   ** "s=" followed by a string.  Strings should be escaped according to normal URL escaping rules.  Specifically spaces should be replaced by a "+" and other non-alphanumeric characters should be turned into %## codes.
 
 I recommend using [http://www.apple.com/safari/ Safari] (Mac and Windows) on your desktop to test with as it is very similar to Safari for iPhone. You may also want to refer to this [http://developer.apple.com/safari/ Apple Documentation for Safari]. You may need to sign up for the free Apple Developer program to view this documentation.
+
+Note that Safari on the iPhone is capable of some really cool CSS effects that could be put to great use here.  See for example: [http://www.jqtouch.com/ jQTouch] and [http://mrgan.tumblr.com/post/257187093/pie-guy Pie Guy]
 
 = Examples =
 
