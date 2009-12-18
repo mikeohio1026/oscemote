@@ -20,6 +20,13 @@ Feel free to copy any of the examples on this page http://lux.vu/iphone/oscemote
   ** osc:/example/A?i=99&f=3.14
   ** osc:/example/B?s=foodles
 
+The osc: link format is defined as:
+  * "osc:" followed by the OSC message path (usually words separated by slashes)
+  * An optional "?" followed by one or more of the following typed arguments separated by ampersands (&):
+  ** "i=" followed by an integer
+  ** "f=" followed by a floating point number
+  ** "s=" followed by a string.  Strings should be escaped according to normal URL escaping rules.  Specifically spaces should be replaced by a "+" and other non-alphanumeric characters should be turned into %## codes.
+
 I recommend using Safari on your desktop to test with as it is very similar to Safari for iPhone. You may also want to refer to this Apple Documentation for Safari. You will need to be signed up for the free Apple Developer program to view this documentation.
 
 = Examples =
@@ -38,7 +45,7 @@ http://lux.vu/iphone/oscemote/webpanels/CircleDemo/main.js
 There is another experimental example that uses jQuery here:
 http://lux.vu/iphone/oscemote/webpanels/iphonome/index.html
 
-= Reusing the Builtin Controls =
+= Reusing the Built-in Controls =
 
 The built-in panels aren't made with the same technology as the custom ones for two reasons.  One I added the custom panels after the built-in ones were already done and two because the custom panels aren't able to get the high performance that I had hoped.  The speed is reasonable, but not ideal, mostly because of the speed of the javascript engine.  Also note that there is a limit of one OSC message per javascript event due to how the javascript engine handles the osc: urls.
 
