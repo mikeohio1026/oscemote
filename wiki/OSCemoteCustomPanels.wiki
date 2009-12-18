@@ -27,7 +27,7 @@ The osc: link format is defined as:
   ** "f=" followed by a floating point number
   ** "s=" followed by a string.  Strings should be escaped according to normal URL escaping rules.  Specifically spaces should be replaced by a "+" and other non-alphanumeric characters should be turned into %## codes.
 
-I recommend using Safari on your desktop to test with as it is very similar to Safari for iPhone. You may also want to refer to this Apple Documentation for Safari. You will need to be signed up for the free Apple Developer program to view this documentation.
+I recommend using [http://www.apple.com/safari/ Safari] (Mac and Windows) on your desktop to test with as it is very similar to Safari for iPhone. You may also want to refer to this [http://developer.apple.com/safari/ Apple Documentation for Safari]. You may need to sign up for the free Apple Developer program to view this documentation.
 
 = Examples =
 
