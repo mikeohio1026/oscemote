@@ -10,6 +10,7 @@ OSCemote has been tested with the following applications.  For each application 
 Items highlighted in _italics_ will probably work, but have not been tested by OCSemote's author.
 
 || Software || Platforms || Protocol || Tutorial || Helpful Links ||
+|| [http://processing.org/ Processing] || Mac, Windows, Linux || OSC || [http://www.rahji.com/wordpress/2010/01/18/using-oscemote-with-processing/ OSCemote & Processing Tutorial by Rob Duarte] || Thanks Rob! ||
 || [http://puredata.info/ PureData] || Mac, _Windows_, _Linux_  || OSC, MIDI || [OSCemotePureDataTutorial] || ||
 || [http://www.cycling74.com/products/max5 Max/MSP] || _Mac_, _Windows_  || OSC, MIDI || || http://www.trackteamaudio.com/forum/phpBB2/viewtopic.php?t=153 ||
 || [http://supercollider.sourceforge.net/ SuperCollider] || _Mac_, _Windows_, _Linux_  || OSC, MIDI || [OSCemoteSuperColliderExample] || ||
