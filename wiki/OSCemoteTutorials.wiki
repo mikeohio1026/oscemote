@@ -11,7 +11,7 @@ Items highlighted in _italics_ will probably work, but have not been tested by O
 
 || Software || Platforms || Protocol || Tutorial || Helpful Links ||
 || [http://processing.org/ Processing] || Mac, Windows, Linux || OSC || [http://www.rahji.com/wordpress/2010/01/18/using-oscemote-with-processing/ OSCemote & Processing Tutorial by Rob Duarte] || Thanks Rob! ||
-|| [http://puredata.info/ PureData] || Mac, _Windows_, _Linux_  || OSC, MIDI || [OSCemotePureDataTutorial] || ||
+|| [http://puredata.info/ PureData] || Mac, _Windows_, _Linux_  || OSC, MIDI || [OSCemotePureDataTutorial] || http://gitorious.org/gk-code/gk-code/trees/master/tools ||
 || [http://www.cycling74.com/products/max5 Max/MSP] || _Mac_, _Windows_  || OSC, MIDI || || http://www.trackteamaudio.com/forum/phpBB2/viewtopic.php?t=153 ||
 || [http://supercollider.sourceforge.net/ SuperCollider] || _Mac_, _Windows_, _Linux_  || OSC, MIDI || [OSCemoteSuperColliderExample] || ||
 || [http://www.native-instruments.com/index.php?id=traktor3&L=1 Traktor] || Mac, _Windows_  || _OSC_, MIDI || || ||
