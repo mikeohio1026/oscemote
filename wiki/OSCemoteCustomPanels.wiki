@@ -38,6 +38,20 @@ You can find the source for the example panels using View Source in your browser
 
 = Reusing the Built-in Controls =
 
-The built-in panels aren't made with the same technology as the custom ones for two reasons.  One I added the custom panels after the built-in ones were already done and two because the custom panels aren't able to get the high performance that I had hoped.  The speed is reasonable, but not ideal, mostly because of the speed of the javascript engine.  Also note that there is a limit of one OSC message per javascript event due to how the javascript engine handles the osc: urls.
+The built-in panels aren't made with the same technology as the custom ones for two reasons.  One I added the custom panels after the built-in ones were already done and two because the custom panels aren't able to get the high performance that I had hoped.  The speed is reasonable, but not ideal, mostly because of the speed of the javascript engine.
 
 The examples above give a starting point for similar controls, but are incomplete.
+
+= Multiple Messages =
+
+Note that if you use window.location="osc:..." then there is a limit of one OSC message per javascript event.  This is a side effect of the way that the javascript engine handles urls.  To get around this limitation you can create an iframe for each OSC message you want to send:
+
+{{{
+iFrame = document.createElement("IFRAME");
+iFrame.setAttribute("src", "osc:/example/A");
+document.body.appendChild(iFrame); 
+iFrame.parentNode.removeChild(iFrame);
+iFrame = null;
+}}}
+
+Thanks to Jamie Bullock for pointing me to this entry on [http://stackoverflow.com/questions/2934789/triggering-shouldstartloadwithrequest-with-multiple-window-location-href-calls StackOverflow].
