@@ -19,3 +19,4 @@ Items highlighted in _italics_ will probably work, but have not been tested by O
 || [http://www.ableton.com/live Ableton Live] || _Mac_, _Windows_  || MIDI || || ||
 || [http://www.apple.com/ilife/garageband/ Garage Band] || Mac  || MIDI || [OSCemoteOSCulatorGarageBandTutorial] || ||
 || [http://www.adobe.com/flashplatform/ Flash] || Mac, Windows || _OSC_ ||  || http://www.libspark.org/wiki/uranodai/iphoneas http://www.tuio.org/?flash ||
+|| [http://www.troikatronix.com/isadora.html Isadora] || _Mac_, _Windows_ || _OSC_ || || ||
